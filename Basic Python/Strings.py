@@ -74,6 +74,63 @@ if "expensive" not in txte:
   print("No, 'expensive' is NOT present.")
 
 
+'''Slicing
+You can return a range of characters by using the slice syntax.
+
+Specify the start index and the end index, separated by a colon, to return a part of the string. '''
+
+g = "Hello, World!"
+print(g[2:5]) 
+
+'''Slice From the Start
+By leaving out the start index, the range will start at the first character:
+
+Example
+Get the characters from the start to position 5 (not included):'''
+
+h= "Hello, World!"
+print(h[:5])
+
+j = "Hello, World!"
+print(j[2:])
+
+'''Negative Indexing
+Use negative indexes to start the slice from the end of the string:
+Example
+Get the characters:
+
+From: "o" in "World!" (position -5)
+
+To, but not included: "d" in "World!" (position -2):'''
+
+lb = "Hello, World!"
+print(lb[-5:-2])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
