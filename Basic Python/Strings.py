@@ -108,6 +108,65 @@ print(lb[-5:-2])
 
 
 
+'''Upper Case
+The upper() method returns the string in upper case:'''
+
+an = "Hello, World!"
+print(an.upper())
+
+'''The lower() method returns the string in lower case:'''
+
+
+low = "Hello, World!"
+print(low.lower())
+
+'''Whitespace is the space before and/or after the actual text, and very often you want to remove this space.
+
+Example
+The strip() method removes any whitespace from the beginning or the end:'''
+
+
+str = " Hello, World! "
+print(str.strip())
+
+'''The replace() method replaces a string with another string:'''
+
+
+rep = "Hello, World!"
+print(rep.replace("H", "J"))
+
+'''The split() method splits the string into substrings if it finds instances of the separator:'''
+
+
+spl = "Hello, World!"
+print(spl.split(","))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
