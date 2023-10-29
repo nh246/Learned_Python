@@ -22,3 +22,5 @@ print(c)
 print(type(a))
 print(type(b))
 print(type(c))
+
+print(5 + 4 - 7 + 3)
