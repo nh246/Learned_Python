@@ -20,3 +20,6 @@ list4 = ["abc", 34, True, 40, "male"]
 
 thislist = list(("apple", "banana", "cherry")) # note the double round-brackets
 print(thislist)
+
+thislist = ["apple", "banana", "cherry"]
+print(thislist[-1])
