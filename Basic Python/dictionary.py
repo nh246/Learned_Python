@@ -6,3 +6,11 @@ marks = {
 }
 
 print(marks.values())
+
+marks.update({"raul": 550, "naymerJr": 30})
+
+print(marks)
+
+print(marks.get("raul5")) # prints none
+
+print(marks["raul5"]) # prints error
